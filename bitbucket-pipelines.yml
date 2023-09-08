@@ -6,6 +6,6 @@ pipelines:
         clone:
           enabled: false
         script:
-          - git clone --bare git@bitbucket.org:RepoOrg/Samplefirst1.git
+          - git clone --bare git@bitbucket.org:samplefirst1/webserver.git
           - cd RepoName.git
-          - git push --mirror git@github.com:RepoOrg/bittogit.git
+          - git push --mirror git@github.com:PNikhilgowda/bittogit.git
